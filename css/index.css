@@ -1,0 +1,195 @@
+body{
+    background-color: #28b16d;
+}
+header{
+    background: url("../img/bg_01.jpg")no-repeat;
+    height: 7.45rem;
+    background-size:100% auto;/*只能在手机端使用 百分百适应大小*/
+    padding: 0.29rem 0 0 0.51rem;
+}
+header a{
+    font-size: 0.2rem;
+    color: #4093a2;
+    margin-top: 10px;
+}
+.w{
+    width: 100%;
+    padding: 0.2rem 0.23rem 0.6rem 0.23rem;
+}
+section p{
+    font-size: 0.26rem;
+    color: #04473e;
+    line-height:0.35rem ;
+}
+section span{
+    color: #ffe800;
+}
+footer{
+    text-align: center;
+}
+.content{
+    background: url(../img/xiegang_03.jpg) #04ab57;
+    height: 6.37rem;
+    border-radius: 0.3rem;
+    margin-top: 0.33rem;
+    box-shadow: 0rem 0.1rem 0 #016f1f, 0.1rem 0.2rem 0#037c3f;
+    margin-bottom: 0.4rem;
+    position: relative;
+    /* padding: 0.1rem; */
+    padding-top: 0.27rem;
+}
+.content .dian{
+    width: 6.97rem;/*给个宽让图片自适应*/
+    position: absolute;
+    top: 0.05rem;
+    left: 0.03rem;
+}
+.picture{
+    width:6.42rem ;
+    height: 5.89rem;
+    background-color: #037c3f;
+    margin: 0 auto;
+}
+.picture ul li{
+    width: 2.08rem;
+    height:1.28rem ;
+    background-color: #ecffda;
+    border-radius:0.3rem ;
+    float: left;
+    text-align: center;
+    margin: 0.03rem 0.03rem 0.16rem 0.03rem;
+    box-shadow: 0rem 0.16rem 0 #93e8a4;
+    overflow: hidden;/*溢出隐藏*/
+    position: relative;/*绝对定位*/
+}
+.picture .li:before{
+    content: '节日专属';
+    position: absolute;
+    line-height: 0.3rem;
+    width: 1.8rem;
+    background-color: #04ab57;
+    font-size: 0.19rem;
+    color: #ffe800;
+    top: 0.28rem;
+    left: 0.77rem;
+    transform: rotate(44deg);
+}
+.picture .li1:before{
+    content: '888元';
+}
+.picture .li2:before{
+    content: '88元';
+}
+.picture .li3:before{
+    content: '节日专属';
+}
+.picture .li4:before{
+    content: '非卖品';
+}
+.picture ul li p{
+    font-size: 0.26rem;
+}
+.picture img{
+    margin-bottom: 0.01rem;
+}
+.btn{
+    margin-bottom: 0.27rem;
+}
+.btn .btn1{
+    background:url(../img/btn1.png) #ecffda ;
+    background-size: 100%;
+    float: left;
+    font-size: 0.26rem;
+    color: #0b6f72;
+    width: 3.36rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.85rem;
+    box-shadow: 0 0.05rem 0 #97ba75,0.05rem 0.13rem 0 #037c3f;
+    position: relative;
+}
+.btn i{
+    background: url("../img/yuanjiao.png") no-repeat;
+    width: 0.48rem;
+    height: 0.22rem;
+    display:block;
+    position: absolute;
+    top: 0.09rem;
+    left: 0.06rem;
+}
+.btn .btn2{
+    background-color: #ffe800;
+    width: 3.36rem;
+    line-height: 0.85rem;
+    box-shadow: 0 0.05rem 0 #f79b02,0.05rem 0.13rem 0 #037c3f;
+    border-radius: 0.2rem;
+    float: right;
+    font-size: 0.25rem;
+    text-align: center;
+    color: #cf2732;
+    position: relative;
+    overflow: hidden;
+}
+.btn .btn2:before{
+    content: '推荐';
+    position: absolute;
+    top: 0.1rem;
+    left: 2.62rem;
+    font-size: 0.12rem;
+    background: #ffefef;
+    line-height:0.23rem ;
+    width: 0.96rem;
+    transform: rotate(44deg);
+}
+.feiyunbi{
+    margin-bottom: 0.47rem;
+}
+.feiyunbi a{
+    font-size: 0.26rem;
+    color: #094c43;
+    text-decoration: underline;
+    font-weight:bold ;/*字体加粗*/
+}
+.feiyunbi span{
+    font-size: 0.26rem;
+    color: #ffe800;
+    padding-left: 0.65rem;
+    font-weight: bold;
+}
+.feiyunbi img{
+    margin-left: 0.09rem;
+}
+.content1{
+    margin-bottom: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0 #037c3f;
+    border-radius: 0.1rem;
+}
+.content1 .head{
+    font-size: 0.4rem;
+    color: #05483f;
+    background-color: #ffe800;
+    line-height:0.79rem ;
+    border-bottom:0.01rem solid #a2ecab;
+    border-radius:0.1rem 0.1rem 0 0;
+    text-align: center;
+}
+.content1 .body{
+    background-color: #dffac5;
+    padding: 0.31rem 0.08rem;
+    border-radius:0 0 0.1rem 0.1rem ;
+}
+.content1 .body ul li{
+    margin-bottom: 0.3rem;
+}
+.content1 .body ul li span{
+    font-size: 0.28rem;
+    color: #0b6f72;
+}
+.content1 .body .chou{
+    margin: 0 1.42rem 0 0.85rem ;
+}
+
+
+
+
+

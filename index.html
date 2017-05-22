@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <!--<meta name="full-screen" content="yes">-->
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <script src="js/zepto.min.js"></script>
+    <script>
+        $(function () {
+            //自适应基础
+            function initFontSize() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+
+            initFontSize();
+            $(window).resize(function () {
+                initFontSize();
+            });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <a href="#">分享</a>
+</header>
+<section>
+    <div class="w">
+        <p><span>活动说明:1000飞云币</span>抽奖<span>一次</span>，<span>10000飞云币</span>抽奖<span>十次</span>。抽到的礼物道具时限为永久，将直接发放到用户的道具背包。抽到火箭、飞机礼物，将会全站喇叭公告。</p>
+        <div class="content">
+            <img class="dian" src="img/dian.png" alt="">
+            <div class="picture cf">
+                <ul>
+                    <li class="li">
+                        <img style="width: 0.56rem" src="img/tupian1.png" alt="">
+                        <p>龙头签*5</p>
+                    </li>
+                    <li class="li" style="padding-top: 0.14rem">
+                        <img style="width: 0.71rem" src="img/tupian2.png" alt="">
+                        <p>春饼*5</p>
+                    </li>
+                    <li class="li" style="padding: 0.15rem">
+                        <img style="width: 1.09rem;margin-left: 0.20rem;" src="img/tupian3.png" alt="">
+                        <p>龙须面*10</p>
+                    </li>
+                    <li  style="padding: 0.15rem">
+                        <img style="width: 0.64rem;" src="img/tupian4.png" alt="">
+                        <p>黄瓜*16</p>
+                    </li>
+                    <li class="li li1">
+                        <img style="width: 0.9rem;" src="img/tupian5.png" alt="">
+                        <p>金龙火箭*1</p>
+                    </li>
+                    <li style="padding: 0.15rem">
+                        <img style="width: 1.2rem;" src="img/tupian6.png" alt="">
+                        <p>666*16</p>
+                    </li>
+                    <li style="padding: 0.3rem">
+                        <img style="width: 0.68rem;" src="img/tupian7.png" alt="">
+                        <p>辣条*5</p>
+                    </li>
+                    <li class="li li2">
+                        <img style="width: 0.9rem;" src="img/tupian8.png" alt="">
+                        <p>银龙飞机*1</p>
+                    </li>
+                    <li style="padding: 0.3rem">
+                        <img style="width: 0.73rem;" src="img/tupian9.png" alt="">
+                        <p>么么哒*20</p>
+                    </li>
+                    <li class="li li3">
+                        <img style="width: 0.66rem" src="img/tupian10.png" alt="">
+                        <p>爆米花*11</p>
+                    </li>
+                    <li class="li li1" style="padding: 0.14rem">
+                        <img style="width: 0.73rem;" src="img/tupian11.png" alt="">
+                        <p>全站喇叭*1</p>
+                    </li>
+                    <li class="li li5">
+                        <img style="width: 0.56rem" src="img/tupian1.png" alt="">
+                        <p>龙头签*5</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn cf">
+            <a class="btn1" href="#">1000飞云币抽1次 <i></i></a>
+            <a class="btn2" href="#">10000飞云币抽10次<i></i></a>
+        </div>
+        <div class="feiyunbi">
+        <a href="#">如何获取飞云币</a>
+        <span>我的飞云币：1254368</span>
+         <img style="width: 0.27rem" src="img/jinbitu.png" alt="">
+        </div>
+        <div class="content1">
+            <div class="head">幸运获奖名单</div>
+            <div class="body">
+                <ul>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/huojian.png" alt="">
+                        <span style="font-weight: bold">大火箭*1</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/memeda.png" alt="">
+                        <span style="font-weight: bold">么么哒 *99</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/huojian.png" alt="">
+                        <span style="font-weight: bold">大火箭*1</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/memeda.png" alt="">
+                        <span style="font-weight: bold">么么哒 *99</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/huojian.png" alt="">
+                        <span style="font-weight: bold">大火箭*1</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/memeda.png" alt="">
+                        <span style="font-weight: bold">么么哒 *99</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/huojian.png" alt="">
+                        <span style="font-weight: bold">大火箭*1</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/memeda.png" alt="">
+                        <span style="font-weight: bold">么么哒 *99</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/huojian.png" alt="">
+                        <span style="font-weight: bold">大火箭*1</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/memeda.png" alt="">
+                        <span style="font-weight: bold">么么哒 *99</span>
+                    </li>
+                    <li>
+                        <span>新疆思密达</span>
+                        <span class="chou">抽到</span>
+                        <img style="width: 0.47rem;margin-right: 0.2rem" src="img/memeda.png" alt="">
+                        <span style="font-weight: bold">么么哒 *99</span>
+                    </li>
+                </ul>
+                </ul>
+                </ul>
+                </ul>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <img style="width: 4.5rem" src="img/paidui.png" alt="">
+            <img  style="width: 7.39rem" src="img/huoqufangshi.png" alt="">
+            <a href="#"><img style="width: 6.9rem" src="img/foot.png" alt=""></a>
+        </footer>
+    </div>
+</section>
+</body>
+</html>
